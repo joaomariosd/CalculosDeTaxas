@@ -48,7 +48,7 @@ namespace Treinamento7
             Console.WriteLine();
 
             Console.WriteLine("TOTAL TAXES: $ " + sum.ToString("F2", CultureInfo.InvariantCulture));
-            
+            Console.ReadKey();
         }
     }
 }
